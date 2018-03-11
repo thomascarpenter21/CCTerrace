@@ -264,9 +264,9 @@ html, body {
 
 .hero .text h1 {
 	margin: 0;
-	font-size: 64px;
+	font-size: 80px;
 	font-weight: 300;
-	letter-spacing: .5px;
+	letter-spacing: .6px;
 	line-height: 1.3em;
 }
 
@@ -340,7 +340,7 @@ section.bg-reverse {
 }
 
 section.bg-overlay {
-	background-color: rgba(0,0,0,0.85);
+	background-color: rgba(0,0,0,0.0);
 }
 
 section.padding {
