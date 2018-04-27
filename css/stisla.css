@@ -58,16 +58,10 @@ html, body {
 	width: 100%;
 	height: 100%;
 }
-/*.overlayer {
-	background-color: #000;
-	opacity: .85;
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
+img {
+	max-width: 100%;
+	height: auto;
 }
-*/
 /*article read*/
 .article-read {
 	display: none;
@@ -160,7 +154,7 @@ html, body {
 	width: 100%;
 	padding-top: 25px;
 	padding-bottom: 25px;
-	z-index: 1;
+	z-index: 4;
 }
 
 .navbar.main-navbar.bg-dark {
@@ -180,7 +174,7 @@ html, body {
 .navbar.main-navbar .nav-link {
 	color: #fff;
 	padding: 0 20px;
-	font-size: 14px;
+	font-size: 16px;
 	letter-spacing: 1px;
 	color: rgba(255,255,255,.75);
 	position: relative;
@@ -250,16 +244,26 @@ html, body {
 	opacity: 1;
 }
 
+/*list*/
+.list {
+	color: white;
+	font-size: 16px;
+}
+
+.lister { 
+	color: white;
+	font-size: 40px; 
+}
 /*hero*/
 .hero {
 	height: 100%;
-	color: #fff;
+	color: #FFD700;
 	position: relative;
 }
 
 .hero .text {
 	position: absolute;
-	top: 60%;
+	top: 50%;
 	left: 300px;
 	right: 300px;
 	transform: translateY(-60%);
@@ -268,19 +272,20 @@ html, body {
 	-o-transform: translateY(-60%);
 	-ms-transform: translateY(-60%);
 	z-index: 1;
+	
 	text-align: center;
 }
 
 .hero .text h1 {
 	margin: 0;
-	font-size: 80px;
+	font-size: 120px;
 	font-weight: 300;
 	letter-spacing: .6px;
 	line-height: 1.3em;
 }
 
 .hero .text h1 .bold {
-	font-weight: 600;
+	font-weight: 800;
 }
 
 .hero .text p.lead {
@@ -288,8 +293,8 @@ html, body {
 	text-transform: uppercase;
 	letter-spacing: 1.5px;
 	line-height: 0;
-	font-size: 16px;
-}
+	font-size: 25px;
+} 
 
 .hero .cta {
 	margin-top: 40px;
@@ -450,6 +455,7 @@ section.callout h3 {
 	margin-top: 10px;
 }
 
+
 /*article*/
 article.card {
 	border: none;
@@ -462,7 +468,8 @@ article.card {
 }
 
 article.card .card-img-top {
-	height: 100%;
+	height: 600px;
+	width: 600px;
 }
 
 article.card .card-title {
@@ -788,8 +795,11 @@ footer i {
 	}
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 319px) {
 	.article-read .article-read-inner {
-		width: 80%;
+		width: 80%;	
 	}
+	/*.navbar.main-navbar {
+		background-color: black;
+	}*/
 }
