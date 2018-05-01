@@ -259,6 +259,7 @@ img {
 	height: 100%;
 	color: #FFD700;
 	position: relative;
+	background-repeat: no-repeat;
 }
 
 .hero .text {
